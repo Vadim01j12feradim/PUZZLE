@@ -1,0 +1,94 @@
+body{
+    background-image:url('images/font.gif');
+    background-color: aqua;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    }
+#backplayer{
+    display: inline-block;
+    width: 70px;
+}
+#laberint{
+    border-style:groove;
+    border-width: 20px;
+    display:inline-block;
+    background-color:black;
+}
+#player{
+    background-image: url('images/trrain.jpeg');
+}
+.void{
+
+    width: 74px;
+    height: 74px;
+}
+.void:hover{
+
+    background-image: none;
+    background-color: rgb(0, 146, 32);
+    cursor:pointer;
+}
+#flag{
+    width: 70px;
+    background-color: rgb(0, 117, 10);
+}
+.alert{
+    background-color: brown;
+    width: 74px;
+}
+.Reset{
+    margin: 18px;
+    color: aliceblue;
+    width: 200px;
+    height: 60px;
+    border-width: 6px;
+    border-color: aqua;
+    background-color: rgb(9, 17, 134);
+    border-radius: 10px;
+    box-shadow: 0 0px 15px 15px rgb(8, 59, 136);
+    font-size: large;
+    font-weight: 900;
+}
+.Reset:hover{
+    cursor: pointer;
+    background-color: rgb(63, 50, 255);
+}
+
+.Encontrar{
+    margin: 18px;
+    color: aliceblue;
+    width: 200px;
+    height: 60px;
+    border-width: 6px;
+    border-color: rgb(0, 255, 13);
+    background-color: rgb(9, 134, 15);
+    border-radius: 10px;
+    box-shadow: 0 0px 15px 15px rgb(13, 97, 5);
+    font-size: large;
+    font-weight: 900;
+}
+.Encontrar:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(90, 236, 90);
+}
+
+.info{
+    padding: 14px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-style:groove;
+}
+#Height,#Width,#Obstacles{
+    width: 120px;
+    height: 40px;
+    background-color: aqua;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 900;
+    box-shadow: 0 0px 10px 10px rgb(114, 5, 117);
+}
